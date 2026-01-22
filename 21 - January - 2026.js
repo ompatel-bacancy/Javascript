@@ -142,11 +142,7 @@ console.log(myPhone.getBrand); // undefined because this variable is not defined
 // It must handle nested arrays.
 // It must not copy functions by reference (they can remain shared, but the object structure must be unique).
 
-/**
- * Performs a deep copy of an object or array.
- * @param {*} obj - The value to clone.
- * @returns {*} - The deep cloned value.
- */
+
 function masterClone(obj) {
   if (obj === null || typeof obj !== 'object') {
     return obj;
