@@ -49,7 +49,7 @@ This project helps you understand and apply **core JavaScript concepts** step-by
 git clone https://github.com/ompatel-bacancy/javascript.git
 
 # Move into project directory
-cd javascript-basics-bacancy
+cd javascript
 
 # Open in VS Code
 code .
